@@ -78,6 +78,10 @@ public class Main
     private void novaSequencia()
     {
         int val = Leitor.readInt("Entre com o valor máximo da sequencia: ");
+        if(val <= 0) {
+            System.out.println("Valor invalido inserido");
+            return;
+        }
         FibonnacciInfo fi = Fibonacci.run(val);
         lista.add(fi);
     }

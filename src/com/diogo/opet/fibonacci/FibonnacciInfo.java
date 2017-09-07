@@ -39,7 +39,11 @@ public class FibonnacciInfo
         System.out.println(ft.format(this.data));
         for (int i = 0; i < resultados.size(); i++)
         {
-            System.out.println("\t"+resultados.get(i));
+            String spacing = "";
+            for(int j = 0; j < i; j++ ) {
+                spacing += "  ";
+            }
+            System.out.println(spacing+resultados.get(i));
         }
     }
 
