@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
+ * Classe que executa o algoritmo do Fibonacci
  * @author Diogo S. Moraes
  *
  */
 public class Fibonacci
 {
     /**
-     *
+     * Metodo estatico que calcula o Fibonacci
      * @param maxValue
      * @return
      */

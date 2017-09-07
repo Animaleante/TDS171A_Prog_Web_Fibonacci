@@ -5,23 +5,23 @@ import java.util.Date;
 import java.util.List;
 
 /**
- *
+ * Classe que guardara as informacoes de uma sequencia
  * @author Diogo S. Moraes
  *
  */
 public class FibonnacciInfo
 {
     /**
-     *
+     * Atributo para salvar a data que foi criada a sequencia
      */
     private Date data;
     /**
-     *
+     * Atributo para salvar a lista de resultados da sequencia
      */
     private List<Integer> resultados;
 
     /**
-     *
+     * Construtor da classe que recebe a lista de resultados, e cria a data usando o hoario atual
      * @param resultados
      */
     public FibonnacciInfo(List<Integer> resultados)
@@ -31,7 +31,7 @@ public class FibonnacciInfo
     }
 
     /**
-     *
+     * Metodo para imprimir a data e resultados da sequencia
      */
     public void print()
     {
